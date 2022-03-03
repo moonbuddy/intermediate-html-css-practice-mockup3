@@ -1,0 +1,48 @@
+.green
+    {
+        background-color: #299626;
+        height: 150px;
+        border: solid black;
+        margin: 0 auto;
+        margin-top: 75px;
+        width: 94%;
+    }
+
+.orange, .red, .blue
+    {
+        width: 29.7%;
+        height: 300px;
+        border: solid black;
+        margin: 0px;
+    }
+
+.orange
+    {
+        background-color: #f7a145;
+    }
+
+.red
+    {
+        background-color: #bf261b;
+    }
+
+.blue
+    {
+        background-color: #66a5d1;
+    }
+    
+.photo-row
+    {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        margin-top: 30px;
+    }
+
+.last-row
+    {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
